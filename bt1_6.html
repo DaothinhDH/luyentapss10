@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let doanhso = +prompt("Doanh số bán hàng");
+        if (doanhso <= 100) {
+            let hoahong = doanhso * 5 / 100
+            document.write("Hoa hồng bạn nhận được là %" + hoahong)
+        }else if(doanhso<=300){
+            let hoahong = doanhso * 10/100
+            document.write("Hoa hồng bạn nhận được là %" + hoahong)           
+        }else if(doanhso > 300){
+            let hoahong = doanhso * 20 / 100
+            document.write("Hoa hồng bạn nhận được là %" + hoahong)
+
+
+        }
+
+
+
+    </script>
+</body>
+
+</html>
